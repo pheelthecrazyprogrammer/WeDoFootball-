@@ -1,0 +1,4234 @@
+[
+    {
+        "id": "8e8111d8eb54d2b0",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "fdcff9d7ca80b512",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "6d27acb443d1f901",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "62ee9494fc848e6f",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#cc0000",
+                "baseFont": "Arial Black,Arial Black,Gadget,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "Verdana,Verdana,Geneva,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#4B7930",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#4B7930",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#6db046",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#4b7930",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Verdana,Verdana,Geneva,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "6dbd40de520d852a",
+        "type": "ui_tab",
+        "name": "WEDOFootball! Dashboard",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "fbf8bce68b05fc82",
+        "type": "ui_group",
+        "name": "Minute",
+        "tab": "977be70ca93c8ac6",
+        "order": 12,
+        "disp": true,
+        "width": 9,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a2c542e73bdb6825",
+        "type": "ui_group",
+        "name": "Player Metrics",
+        "tab": "6dbd40de520d852a",
+        "order": 2,
+        "disp": true,
+        "width": 11
+    },
+    {
+        "id": "78c5e4e7.41b1c",
+        "type": "ui_group",
+        "name": "Heart Rate",
+        "tab": "6dbd40de520d852a",
+        "order": 3,
+        "disp": true,
+        "width": 21,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fd394520e2f57401",
+        "type": "ui_tab",
+        "name": "Real time data",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e7ccd4d257cd8b6c",
+        "type": "ui_group",
+        "name": "G.BUFFON",
+        "tab": "fd394520e2f57401",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f84b022779edbd1e",
+        "type": "ui_group",
+        "name": "F.CANNAVARO",
+        "tab": "fd394520e2f57401",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "320b78f7f6295e40",
+        "type": "ui_group",
+        "name": "A.NESTA",
+        "tab": "fd394520e2f57401",
+        "order": 3,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c2383b239934de69",
+        "type": "ui_group",
+        "name": "F.GROSSO",
+        "tab": "fd394520e2f57401",
+        "order": 4,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1c4e1a08768a8325",
+        "type": "ui_group",
+        "name": "G.ZAMBROTTA",
+        "tab": "fd394520e2f57401",
+        "order": 5,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "168b7ab1aef08912",
+        "type": "ui_group",
+        "name": "A.PIRLO",
+        "tab": "fd394520e2f57401",
+        "order": 6,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a12fed4e37739e1e",
+        "type": "ui_group",
+        "name": "G.GATTUSO",
+        "tab": "fd394520e2f57401",
+        "order": 7,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "58a29551510fa898",
+        "type": "ui_group",
+        "name": "D.DE ROSSI",
+        "tab": "fd394520e2f57401",
+        "order": 8,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a60700b96a9c8f02",
+        "type": "ui_group",
+        "name": "F.TOTTI",
+        "tab": "fd394520e2f57401",
+        "order": 9,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e7aa0ec737dd034b",
+        "type": "ui_group",
+        "name": "A.DEL PIERO",
+        "tab": "fd394520e2f57401",
+        "order": 10,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6e11267ceb0c413c",
+        "type": "ui_group",
+        "name": "A.GILARDINO",
+        "tab": "fd394520e2f57401",
+        "order": 11,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2e442781.0c5608",
+        "type": "ui_group",
+        "name": "Minute",
+        "tab": "fd394520e2f57401",
+        "order": 12,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7d6e40e65a2d852a",
+        "type": "mqtt-broker",
+        "name": "MQTT Broker",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "d3f47a27.8dbb6",
+        "type": "mqtt-broker",
+        "name": "Local MQTT Broker",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "1644bcfb545f7cea",
+        "type": "ui_group",
+        "name": "Update Data Now!",
+        "tab": "fd394520e2f57401",
+        "order": 13,
+        "disp": true,
+        "width": "13",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "977be70ca93c8ac6",
+        "type": "ui_tab",
+        "name": "HeatMap",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "fab2579431caefb1",
+        "type": "ui_group",
+        "name": "G.BUFFON",
+        "tab": "977be70ca93c8ac6",
+        "order": 1,
+        "disp": true,
+        "width": "9",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "44d2c12dfa2a292f",
+        "type": "ui_group",
+        "name": "A.GILARDINO",
+        "tab": "977be70ca93c8ac6",
+        "order": 11,
+        "disp": true,
+        "width": 9,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bcb7dd68eb7f0288",
+        "type": "ui_group",
+        "name": "A.DEL PIERO",
+        "tab": "977be70ca93c8ac6",
+        "order": 10,
+        "disp": true,
+        "width": "9",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a395b0e559c6cee0",
+        "type": "ui_group",
+        "name": "F.CANNAVARO",
+        "tab": "977be70ca93c8ac6",
+        "order": 2,
+        "disp": true,
+        "width": "9",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "35c9b88a3b2af793",
+        "type": "ui_group",
+        "name": "A.NESTA",
+        "tab": "977be70ca93c8ac6",
+        "order": 3,
+        "disp": true,
+        "width": "9",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a95a1b0e96c96988",
+        "type": "ui_group",
+        "name": "F.GROSSO",
+        "tab": "977be70ca93c8ac6",
+        "order": 4,
+        "disp": true,
+        "width": "9",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d646855fd6626ca5",
+        "type": "ui_group",
+        "name": "G.ZAMBROTTA",
+        "tab": "977be70ca93c8ac6",
+        "order": 5,
+        "disp": true,
+        "width": "9",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "62b518d2f51981cb",
+        "type": "ui_group",
+        "name": "A.PIRLO",
+        "tab": "977be70ca93c8ac6",
+        "order": 6,
+        "disp": true,
+        "width": "9",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "cd41d15b1899c08a",
+        "type": "ui_group",
+        "name": "G.GATTUSO",
+        "tab": "977be70ca93c8ac6",
+        "order": 7,
+        "disp": true,
+        "width": "9",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0b8b380746d13cab",
+        "type": "ui_group",
+        "name": "D.DE ROSSI",
+        "tab": "977be70ca93c8ac6",
+        "order": 8,
+        "disp": true,
+        "width": "9",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3511ce9fae8060e9",
+        "type": "ui_group",
+        "name": "F.TOTTI",
+        "tab": "977be70ca93c8ac6",
+        "order": 9,
+        "disp": true,
+        "width": "9",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fdc8f009a497acc6",
+        "type": "ui_group",
+        "name": "Player Selection",
+        "tab": "6dbd40de520d852a",
+        "order": 1,
+        "disp": true,
+        "width": 9,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "935242b2f9f01ae4",
+        "type": "ui_spacer",
+        "z": "8e8111d8eb54d2b0",
+        "name": "spacer",
+        "group": "a2c542e73bdb6825",
+        "order": 4,
+        "width": 11,
+        "height": 1
+    },
+    {
+        "id": "61fe34a55456cc34",
+        "type": "ui_spacer",
+        "z": "8e8111d8eb54d2b0",
+        "name": "spacer",
+        "group": "a2c542e73bdb6825",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c03f2911040da3a9",
+        "type": "ui_spacer",
+        "z": "8e8111d8eb54d2b0",
+        "name": "spacer",
+        "group": "a2c542e73bdb6825",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "548917d4eedb835a",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/2/realtime/average_velocity",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 440,
+        "y": 260,
+        "wires": [
+            [
+                "3467741f7762f359"
+            ]
+        ]
+    },
+    {
+        "id": "ae6946a844de57f1",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/3/realtime/average_velocity",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 440,
+        "y": 340,
+        "wires": [
+            [
+                "3b0bb598ade19c1b"
+            ]
+        ]
+    },
+    {
+        "id": "9733b5d08ba8f490",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/4/realtime/average_velocity",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 440,
+        "y": 420,
+        "wires": [
+            [
+                "5cb0c3a0f958b22b"
+            ]
+        ]
+    },
+    {
+        "id": "272ff5df787ae656",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/5/realtime/average_velocity",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 440,
+        "y": 500,
+        "wires": [
+            [
+                "c4e2984c6625eb63"
+            ]
+        ]
+    },
+    {
+        "id": "bdc904c1076f9bab",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/1/realtime/average_velocity",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 380,
+        "y": 160,
+        "wires": [
+            [
+                "e8aee946711770bd"
+            ]
+        ]
+    },
+    {
+        "id": "dd3ce7e7b9f88a16",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/6/realtime/average_velocity",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 440,
+        "y": 580,
+        "wires": [
+            [
+                "6811541c52f7fd76"
+            ]
+        ]
+    },
+    {
+        "id": "7766adc0cce3552f",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/7/realtime/average_velocity",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 440,
+        "y": 660,
+        "wires": [
+            [
+                "f5ec46cb11f8208a"
+            ]
+        ]
+    },
+    {
+        "id": "a2a8fe996fb34dc1",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/8/realtime/average_velocity",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 440,
+        "y": 720,
+        "wires": [
+            [
+                "585d75f038d6c098"
+            ]
+        ]
+    },
+    {
+        "id": "68bc0f91222fceed",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/9/realtime/average_velocity",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 440,
+        "y": 780,
+        "wires": [
+            [
+                "c2dcb6da101eab8d"
+            ]
+        ]
+    },
+    {
+        "id": "36b84385f6504e8f",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/10/realtime/average_velocity",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 390,
+        "y": 840,
+        "wires": [
+            [
+                "f5d65cb710c4859c"
+            ]
+        ]
+    },
+    {
+        "id": "e2f731901d3ca391",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/11/realtime/average_velocity",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 370,
+        "y": 920,
+        "wires": [
+            [
+                "71dd539560d6a697"
+            ]
+        ]
+    },
+    {
+        "id": "e8aee946711770bd",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "e7ccd4d257cd8b6c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Average velocity (Km/h)",
+        "format": "{{msg.payload.average_velocity}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 710,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "3467741f7762f359",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "f84b022779edbd1e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Average velocity (Km/h)",
+        "format": "{{msg.payload.average_velocity}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 710,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "3b0bb598ade19c1b",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "320b78f7f6295e40",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Average velocity (Km/h)",
+        "format": "{{msg.payload.average_velocity}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 710,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "5cb0c3a0f958b22b",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "c2383b239934de69",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Average velocity (Km/h)",
+        "format": "{{msg.payload.average_velocity}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 710,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "c4e2984c6625eb63",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "1c4e1a08768a8325",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Average velocity (Km/h)",
+        "format": "{{msg.payload.average_velocity}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 710,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "6811541c52f7fd76",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "168b7ab1aef08912",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Average velocity (Km/h)",
+        "format": "{{msg.payload.average_velocity}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 710,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "f5ec46cb11f8208a",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "a12fed4e37739e1e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Average velocity (Km/h)",
+        "format": "{{msg.payload.average_velocity}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 710,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "585d75f038d6c098",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "58a29551510fa898",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Average velocity (Km/h)",
+        "format": "{{msg.payload.average_velocity}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 710,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "c2dcb6da101eab8d",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "a60700b96a9c8f02",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Average velocity (Km/h)",
+        "format": "{{msg.payload.average_velocity}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 710,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "f5d65cb710c4859c",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "e7aa0ec737dd034b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Average velocity (Km/h)",
+        "format": "{{msg.payload.average_velocity}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 670,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "71dd539560d6a697",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "6e11267ceb0c413c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Average velocity (Km/h)",
+        "format": "{{msg.payload.average_velocity}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 650,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "3d02dde80fc0f249",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/2/realtime/distance_traveled",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1470,
+        "y": 280,
+        "wires": [
+            [
+                "861ef9be118ff275"
+            ]
+        ]
+    },
+    {
+        "id": "b971ddab60d5cd5c",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/3/realtime/distance_traveled",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1370,
+        "y": 360,
+        "wires": [
+            [
+                "7c1aa36ad35d25aa"
+            ]
+        ]
+    },
+    {
+        "id": "a26b71aa741a7c2b",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/4/realtime/distance_traveled",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1390,
+        "y": 440,
+        "wires": [
+            [
+                "7516b0d1517a3e07"
+            ]
+        ]
+    },
+    {
+        "id": "9c4b61ed0e56f82c",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/5/realtime/distance_traveled",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1430,
+        "y": 520,
+        "wires": [
+            [
+                "c0b418f8a160a715"
+            ]
+        ]
+    },
+    {
+        "id": "ebc5d2b882b1b8ed",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/1/realtime/distance_traveled",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1510,
+        "y": 180,
+        "wires": [
+            [
+                "b9a7f53e4856f66b"
+            ]
+        ]
+    },
+    {
+        "id": "d3e2c275823fbe89",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/6/realtime/distance_traveled",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1410,
+        "y": 600,
+        "wires": [
+            [
+                "b55300a50aa654f3"
+            ]
+        ]
+    },
+    {
+        "id": "1792ad46070f33d6",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/7/realtime/distance_traveled",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1430,
+        "y": 660,
+        "wires": [
+            [
+                "15a1e71a5bf03131"
+            ]
+        ]
+    },
+    {
+        "id": "02153ca1a56982b3",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/8/realtime/distance_traveled",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1470,
+        "y": 740,
+        "wires": [
+            [
+                "aa2927328ad5abaf"
+            ]
+        ]
+    },
+    {
+        "id": "ae20dc8249d24fbb",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/9/realtime/distance_traveled",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1470,
+        "y": 800,
+        "wires": [
+            [
+                "f080188f7c858aef"
+            ]
+        ]
+    },
+    {
+        "id": "baf6b51f9297a84b",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/10/realtime/distance_traveled",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1450,
+        "y": 860,
+        "wires": [
+            [
+                "e15d7a77f02268e0"
+            ]
+        ]
+    },
+    {
+        "id": "03ab68cc461a3916",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/11/realtime/distance_traveled",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1410,
+        "y": 920,
+        "wires": [
+            [
+                "bb41309e9fedc761"
+            ]
+        ]
+    },
+    {
+        "id": "b9a7f53e4856f66b",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "e7ccd4d257cd8b6c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Distance traveled",
+        "label": "Distance traveled (Km)",
+        "format": "{{msg.payload.distance_traveled_km}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1810,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "861ef9be118ff275",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "f84b022779edbd1e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Distance traveled",
+        "label": "Distance traveled (Km)",
+        "format": "{{msg.payload.distance_traveled_km}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1770,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "7c1aa36ad35d25aa",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "320b78f7f6295e40",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Distance traveled",
+        "label": "Distance traveled (Km)",
+        "format": "{{msg.payload.distance_traveled_km}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1730,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "7516b0d1517a3e07",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "c2383b239934de69",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Distance traveled",
+        "label": "Distance traveled (Km)",
+        "format": "{{msg.payload.distance_traveled_km}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1750,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "c0b418f8a160a715",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "1c4e1a08768a8325",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Distance traveled",
+        "label": "Distance traveled (Km)",
+        "format": "{{msg.payload.distance_traveled_km}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1730,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "b55300a50aa654f3",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "168b7ab1aef08912",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Distance traveled",
+        "label": "Distance traveled (Km)",
+        "format": "{{msg.payload.distance_traveled_km}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1710,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "15a1e71a5bf03131",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "a12fed4e37739e1e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Distance traveled",
+        "label": "Distance traveled (Km)",
+        "format": "{{msg.payload.distance_traveled_km}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1710,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "aa2927328ad5abaf",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "58a29551510fa898",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Distance traveled",
+        "label": "Distance traveled (Km)",
+        "format": "{{msg.payload.distance_traveled_km}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1690,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "f080188f7c858aef",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "a60700b96a9c8f02",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Distance traveled",
+        "label": "Distance traveled (Km)",
+        "format": "{{msg.payload.distance_traveled_km}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1790,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "e15d7a77f02268e0",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "e7aa0ec737dd034b",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Distance traveled",
+        "label": "Distance traveled (Km)",
+        "format": "{{msg.payload.distance_traveled_km}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1750,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "bb41309e9fedc761",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "6e11267ceb0c413c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Distance traveled",
+        "label": "Distance traveled (Km)",
+        "format": "{{msg.payload.distance_traveled_km}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1730,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "9a9c368a3c686ac0",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/2/realtime/calories_consumed",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 350,
+        "y": 1100,
+        "wires": [
+            [
+                "05cad410aa74b3bd"
+            ]
+        ]
+    },
+    {
+        "id": "89e80cde3d5de90c",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/3/realtime/calories_consumed",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 350,
+        "y": 1180,
+        "wires": [
+            [
+                "83d10c028fc7db5a"
+            ]
+        ]
+    },
+    {
+        "id": "8632602135f74798",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/4/realtime/calories_consumed",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 350,
+        "y": 1260,
+        "wires": [
+            [
+                "8c4a031269c923c9"
+            ]
+        ]
+    },
+    {
+        "id": "934184d16157273a",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/5/realtime/calories_consumed",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 310,
+        "y": 1380,
+        "wires": [
+            [
+                "7a8580748bdd5681"
+            ]
+        ]
+    },
+    {
+        "id": "ead058f17f42a240",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/1/realtime/calories_consumed",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 370,
+        "y": 1000,
+        "wires": [
+            [
+                "19a72e671d36499a"
+            ]
+        ]
+    },
+    {
+        "id": "33a210d47aa5975f",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/6/realtime/calories_consumed",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 330,
+        "y": 1460,
+        "wires": [
+            [
+                "05c551cbe0ebfe23"
+            ]
+        ]
+    },
+    {
+        "id": "7e6aaf32c39a5df2",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/7/realtime/calories_consumed",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 310,
+        "y": 1540,
+        "wires": [
+            [
+                "1374e061296e59a6"
+            ]
+        ]
+    },
+    {
+        "id": "ac3f9589860cc37c",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/8/realtime/calories_consumed",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 290,
+        "y": 1600,
+        "wires": [
+            [
+                "078f75ac08f7770b"
+            ]
+        ]
+    },
+    {
+        "id": "a9cca969425c3ff3",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/9/realtime/calories_consumed",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 290,
+        "y": 1660,
+        "wires": [
+            [
+                "ca3661d34ece18e6"
+            ]
+        ]
+    },
+    {
+        "id": "c25d4a6c616c4ad6",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/10/realtime/calories_consumed",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 1720,
+        "wires": [
+            [
+                "e8b9f07eb67edf34"
+            ]
+        ]
+    },
+    {
+        "id": "ff50106240fd25c7",
+        "type": "mqtt in",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "topic": "football/players/11/realtime/calories_consumed",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d3f47a27.8dbb6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 1780,
+        "wires": [
+            [
+                "961c45b999d9fee0"
+            ]
+        ]
+    },
+    {
+        "id": "19a72e671d36499a",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "e7ccd4d257cd8b6c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "calories_consumed",
+        "label": "Calories consumed (Kcal)",
+        "format": "{{msg.payload.calories_consumed}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 630,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "05cad410aa74b3bd",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "f84b022779edbd1e",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "calories_consumed",
+        "label": "Calories consumed (Kcal)",
+        "format": "{{msg.payload.calories_consumed}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 670,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "83d10c028fc7db5a",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "320b78f7f6295e40",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "calories_consumed",
+        "label": "Calories consumed (Kcal)",
+        "format": "{{msg.payload.calories_consumed}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 690,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "8c4a031269c923c9",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "c2383b239934de69",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "calories_consumed",
+        "label": "Calories consumed (Kcal)",
+        "format": "{{msg.payload.calories_consumed}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 710,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "7a8580748bdd5681",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "1c4e1a08768a8325",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "calories_consumed",
+        "label": "Calories consumed (Kcal)",
+        "format": "{{msg.payload.calories_consumed}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 630,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "05c551cbe0ebfe23",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "168b7ab1aef08912",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "calories_consumed",
+        "label": "Calories consumed (Kcal)",
+        "format": "{{msg.payload.calories_consumed}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 670,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "1374e061296e59a6",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "a12fed4e37739e1e",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "calories_consumed",
+        "label": "Calories consumed (Kcal)",
+        "format": "{{msg.payload.calories_consumed}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 530,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "078f75ac08f7770b",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "58a29551510fa898",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "calories_consumed",
+        "label": "Calories consumed (Kcal)",
+        "format": "{{msg.payload.calories_consumed}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 510,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "ca3661d34ece18e6",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "a60700b96a9c8f02",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "calories_consumed",
+        "label": "Calories consumed (Kcal)",
+        "format": "{{msg.payload.calories_consumed}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 510,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "e8b9f07eb67edf34",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "e7aa0ec737dd034b",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "calories_consumed",
+        "label": "Calories consumed (Kcal)",
+        "format": "{{msg.payload.calories_consumed}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 490,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "961c45b999d9fee0",
+        "type": "ui_text",
+        "z": "8e8111d8eb54d2b0",
+        "group": "6e11267ceb0c413c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "calories_consumed",
+        "label": "Calories consumed (Kcal)",
+        "format": "{{msg.payload.calories_consumed}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 510,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "9bf0d2c6d7daeefe",
+        "type": "ui_button",
+        "z": "8e8111d8eb54d2b0",
+        "name": "",
+        "group": "1644bcfb545f7cea",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "RETRIEVE RT DATA",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 980,
+        "y": 100,
+        "wires": [
+            [
+                "a1d9ac64a8b20aaf"
+            ]
+        ]
+    },
+    {
+        "id": "a1d9ac64a8b20aaf",
+        "type": "exec",
+        "z": "8e8111d8eb54d2b0",
+        "command": "python C:\\your_path\\WDF!\\Script\\realtime_db.py",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "EXEC",
+        "x": 1190,
+        "y": 100,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "e8a320116677fc4e",
+        "type": "ui_dropdown",
+        "z": "fdcff9d7ca80b512",
+        "name": "Player Selector",
+        "label": "Select Player",
+        "tooltip": "",
+        "place": "Select Player",
+        "group": "fdc8f009a497acc6",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "G.BUFFON",
+                "value": "football/players/1/sensors",
+                "type": "str"
+            },
+            {
+                "label": "F.CANNAVARO",
+                "value": "football/players/2/sensors",
+                "type": "str"
+            },
+            {
+                "label": "A.NESTA",
+                "value": "football/players/3/sensors",
+                "type": "str"
+            },
+            {
+                "label": "F.GROSSO",
+                "value": "football/players/4/sensors",
+                "type": "str"
+            },
+            {
+                "label": "G.ZAMBROTTA",
+                "value": "football/players/5/sensors",
+                "type": "str"
+            },
+            {
+                "label": "A.PIRLO",
+                "value": "football/players/6/sensors",
+                "type": "str"
+            },
+            {
+                "label": "G.GATTUSO",
+                "value": "football/players/7/sensors",
+                "type": "str"
+            },
+            {
+                "label": "D.DE ROSSI",
+                "value": "football/players/8/sensors",
+                "type": "str"
+            },
+            {
+                "label": "F.TOTTI",
+                "value": "football/players/9/sensors",
+                "type": "str"
+            },
+            {
+                "label": "A.DEL PIERO",
+                "value": "football/players/10/sensors",
+                "type": "str"
+            },
+            {
+                "label": "A.GILARDINO",
+                "value": "football/players/11/sensors",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "topicType": "str",
+        "className": "",
+        "x": 120,
+        "y": 60,
+        "wires": [
+            [
+                "4fe3df746812f85f"
+            ]
+        ]
+    },
+    {
+        "id": "4fe3df746812f85f",
+        "type": "change",
+        "z": "fdcff9d7ca80b512",
+        "name": "Set MQTT Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "player_topic",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6ab009aab4c8db87",
+        "type": "mqtt in",
+        "z": "fdcff9d7ca80b512",
+        "name": "MQTT Player 1",
+        "topic": "football/players/1/sensors",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7d6e40e65a2d852a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 180,
+        "y": 160,
+        "wires": [
+            [
+                "860952b8fa35e2c1"
+            ]
+        ]
+    },
+    {
+        "id": "4e1bd65216603e7d",
+        "type": "mqtt in",
+        "z": "fdcff9d7ca80b512",
+        "name": "MQTT Player 2",
+        "topic": "football/players/2/sensors",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7d6e40e65a2d852a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 180,
+        "y": 210,
+        "wires": [
+            [
+                "860952b8fa35e2c1"
+            ]
+        ]
+    },
+    {
+        "id": "97116d0b0ac2245b",
+        "type": "mqtt in",
+        "z": "fdcff9d7ca80b512",
+        "name": "MQTT Player 3",
+        "topic": "football/players/3/sensors",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7d6e40e65a2d852a",
+        "inputs": 0,
+        "x": 180,
+        "y": 260,
+        "wires": [
+            [
+                "860952b8fa35e2c1"
+            ]
+        ]
+    },
+    {
+        "id": "c8fd7a6a98f95d7a",
+        "type": "mqtt in",
+        "z": "fdcff9d7ca80b512",
+        "name": "MQTT Player 4",
+        "topic": "football/players/4/sensors",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7d6e40e65a2d852a",
+        "inputs": 0,
+        "x": 180,
+        "y": 310,
+        "wires": [
+            [
+                "860952b8fa35e2c1"
+            ]
+        ]
+    },
+    {
+        "id": "3b7971bbe2b4419b",
+        "type": "mqtt in",
+        "z": "fdcff9d7ca80b512",
+        "name": "MQTT Player 5",
+        "topic": "football/players/5/sensors",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7d6e40e65a2d852a",
+        "inputs": 0,
+        "x": 180,
+        "y": 360,
+        "wires": [
+            [
+                "860952b8fa35e2c1"
+            ]
+        ]
+    },
+    {
+        "id": "b9cab90852610b5f",
+        "type": "mqtt in",
+        "z": "fdcff9d7ca80b512",
+        "name": "MQTT Player 6",
+        "topic": "football/players/6/sensors",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7d6e40e65a2d852a",
+        "inputs": 0,
+        "x": 180,
+        "y": 410,
+        "wires": [
+            [
+                "860952b8fa35e2c1"
+            ]
+        ]
+    },
+    {
+        "id": "913beaa74321c430",
+        "type": "mqtt in",
+        "z": "fdcff9d7ca80b512",
+        "name": "MQTT Player 7",
+        "topic": "football/players/7/sensors",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7d6e40e65a2d852a",
+        "inputs": 0,
+        "x": 180,
+        "y": 460,
+        "wires": [
+            [
+                "860952b8fa35e2c1"
+            ]
+        ]
+    },
+    {
+        "id": "c82f22193d15f867",
+        "type": "mqtt in",
+        "z": "fdcff9d7ca80b512",
+        "name": "MQTT Player 8",
+        "topic": "football/players/8/sensors",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7d6e40e65a2d852a",
+        "inputs": 0,
+        "x": 180,
+        "y": 510,
+        "wires": [
+            [
+                "860952b8fa35e2c1"
+            ]
+        ]
+    },
+    {
+        "id": "7eaa6cd3b315d8a4",
+        "type": "mqtt in",
+        "z": "fdcff9d7ca80b512",
+        "name": "MQTT Player 9",
+        "topic": "football/players/9/sensors",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7d6e40e65a2d852a",
+        "inputs": 0,
+        "x": 180,
+        "y": 560,
+        "wires": [
+            [
+                "860952b8fa35e2c1"
+            ]
+        ]
+    },
+    {
+        "id": "0852dfc7ea531e64",
+        "type": "mqtt in",
+        "z": "fdcff9d7ca80b512",
+        "name": "MQTT Player 10",
+        "topic": "football/players/10/sensors",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7d6e40e65a2d852a",
+        "inputs": 0,
+        "x": 180,
+        "y": 610,
+        "wires": [
+            [
+                "860952b8fa35e2c1"
+            ]
+        ]
+    },
+    {
+        "id": "e32295738557ec47",
+        "type": "mqtt in",
+        "z": "fdcff9d7ca80b512",
+        "name": "MQTT Player 11",
+        "topic": "football/players/11/sensors",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7d6e40e65a2d852a",
+        "inputs": 0,
+        "x": 180,
+        "y": 660,
+        "wires": [
+            [
+                "860952b8fa35e2c1"
+            ]
+        ]
+    },
+    {
+        "id": "860952b8fa35e2c1",
+        "type": "json",
+        "z": "fdcff9d7ca80b512",
+        "name": "Parse JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 370,
+        "y": 340,
+        "wires": [
+            [
+                "d5508307d4cb580a",
+                "a9da87e848f1d056",
+                "751ca1a09dce3fc1",
+                "a629a588a6759c2c",
+                "590520158b353c6b",
+                "205139bbde2aed3d",
+                "383eeabdefa59819"
+            ]
+        ]
+    },
+    {
+        "id": "d5508307d4cb580a",
+        "type": "function",
+        "z": "fdcff9d7ca80b512",
+        "name": "Extract Heart Rate",
+        "func": "var player_topic = flow.get('player_topic');\nif (msg.topic === player_topic) {\n    msg.payload = msg.payload.heart_rate.heart_rate;\n    return msg;\n} else {\n    return null;\n}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 380,
+        "wires": [
+            [
+                "0366ef407dd0f047",
+                "73d9771aaf511459",
+                "418e70f8cf700f3e"
+            ]
+        ]
+    },
+    {
+        "id": "bb391d7bb9e203fc",
+        "type": "ui_gauge",
+        "z": "fdcff9d7ca80b512",
+        "name": "Velocity",
+        "group": "a2c542e73bdb6825",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Velocity",
+        "label": "Km/h",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "30",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": 60,
+        "seg2": 120,
+        "diff": false,
+        "className": "",
+        "x": 800,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "a9da87e848f1d056",
+        "type": "function",
+        "z": "fdcff9d7ca80b512",
+        "name": "Extract Velocity",
+        "func": "var player_topic = flow.get('player_topic');\nif (msg.topic === player_topic) {\n    msg.payload = msg.payload.gps.velocity;\n    return msg;\n} else {\n    return null;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 260,
+        "wires": [
+            [
+                "bb391d7bb9e203fc"
+            ]
+        ]
+    },
+    {
+        "id": "a629a588a6759c2c",
+        "type": "function",
+        "z": "fdcff9d7ca80b512",
+        "name": "Temperature",
+        "func": "var player_topic = flow.get('player_topic');\nif (msg.topic === player_topic) {\n    var temperature = msg.payload.temperature.body_temperature;\n    msg.payload = `Temperature : ${temperature} °C`;\n    return msg;\n} else {\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 460,
+        "wires": [
+            [
+                "019520a428dc3c3e"
+            ]
+        ]
+    },
+    {
+        "id": "751ca1a09dce3fc1",
+        "type": "function",
+        "z": "fdcff9d7ca80b512",
+        "name": "Pressure",
+        "func": "var player_topic = flow.get('player_topic');\nif (msg.topic === player_topic) {\n    var systolic = msg.payload.blood_pressure.systolic;\n    var diastolic = msg.payload.blood_pressure.diastolic;\n\n// Round systolic and diastolic values to the nearest integer\nvar roundedSystolic = Math.round(systolic);\nvar roundedDiastolic = Math.round(diastolic);\n\n// Create a new object with rounded values\nmsg.payload = {\n    blood_pressure: {\n        systolic: roundedSystolic,\n        diastolic: roundedDiastolic\n    }\n};\n\nreturn msg;\n} else {\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 580,
+        "wires": [
+            [
+                "fd1c983964ba1810",
+                "b16dbda3bf6f6363"
+            ]
+        ]
+    },
+    {
+        "id": "fd1c983964ba1810",
+        "type": "function",
+        "z": "fdcff9d7ca80b512",
+        "name": "Show pressure values",
+        "func": "// Extract rounded blood pressure values\nvar systolic = msg.payload.blood_pressure.systolic;\nvar diastolic = msg.payload.blood_pressure.diastolic;\n\n// Format the blood pressure data into a string\nvar formattedData = `Pressure Systolic: ${systolic} mmHg Pressure Diastolic: ${diastolic} mmHg`;\n\n// Update msg.payload with formatted data\nmsg.payload = formattedData;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 620,
+        "wires": [
+            [
+                "32adfccabe828288"
+            ]
+        ]
+    },
+    {
+        "id": "32adfccabe828288",
+        "type": "ui_text",
+        "z": "fdcff9d7ca80b512",
+        "group": "a2c542e73bdb6825",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "Pressure",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "Verdana,Verdana,Geneva,sans-serif",
+        "fontSize": "15",
+        "color": "#11ff00",
+        "x": 1060,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "019520a428dc3c3e",
+        "type": "ui_text",
+        "z": "fdcff9d7ca80b512",
+        "group": "a2c542e73bdb6825",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Temperature",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "Verdana,Verdana,Geneva,sans-serif",
+        "fontSize": "15",
+        "color": "#11ff00",
+        "x": 810,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "590520158b353c6b",
+        "type": "function",
+        "z": "fdcff9d7ca80b512",
+        "name": "Role",
+        "func": "var player_topic = flow.get('player_topic');\nif (msg.topic === player_topic) {\n    msg.payload = msg.payload.role;\n    return msg;\n} else {\n    return null;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 200,
+        "wires": [
+            [
+                "01784734e029e4ef"
+            ]
+        ]
+    },
+    {
+        "id": "01784734e029e4ef",
+        "type": "ui_text",
+        "z": "fdcff9d7ca80b512",
+        "group": "fdc8f009a497acc6",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Role",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 790,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "205139bbde2aed3d",
+        "type": "function",
+        "z": "fdcff9d7ca80b512",
+        "name": "Get Player ID",
+        "func": "var player_topic = flow.get('player_topic');\nif (msg.topic === player_topic) {\n    msg.payload = msg.payload.player_id;\n    return msg;\n} else {\n    return null;\n}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 640,
+        "wires": [
+            [
+                "89e7557eea60f27e"
+            ]
+        ]
+    },
+    {
+        "id": "89e7557eea60f27e",
+        "type": "switch",
+        "z": "fdcff9d7ca80b512",
+        "name": "Switch on Player ID",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "4",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "5",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "6",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "7",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "8",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "9",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "10",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "11",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 11,
+        "x": 830,
+        "y": 880,
+        "wires": [
+            [
+                "449721a708602a9b"
+            ],
+            [
+                "1a6d9abe3b0552b2"
+            ],
+            [
+                "4448a61388e4d4ef"
+            ],
+            [
+                "161204ad6c22b632"
+            ],
+            [
+                "c792d5c8708bb91c"
+            ],
+            [
+                "061d0e39909ad230"
+            ],
+            [
+                "2daad4fc3f3c848e"
+            ],
+            [
+                "9cb6bc07f7e21355"
+            ],
+            [
+                "632636176432f55d"
+            ],
+            [
+                "b686af4a3e1550df"
+            ],
+            [
+                "026af75585b6fd24"
+            ]
+        ]
+    },
+    {
+        "id": "449721a708602a9b",
+        "type": "change",
+        "z": "fdcff9d7ca80b512",
+        "name": "Set Image URL 1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "image_url",
+                "pt": "msg",
+                "to": "https://img.a.transfermarkt.technology/portrait/medium/5023-1713425275.jpg?lm=1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1170,
+        "y": 700,
+        "wires": [
+            [
+                "9f89553c7b4bc10a"
+            ]
+        ]
+    },
+    {
+        "id": "1a6d9abe3b0552b2",
+        "type": "change",
+        "z": "fdcff9d7ca80b512",
+        "name": "Set Image URL 2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "image_url",
+                "pt": "msg",
+                "to": "https://img.a.transfermarkt.technology/portrait/medium/5775-1454933483.jpg?lm=1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1170,
+        "y": 740,
+        "wires": [
+            [
+                "9f89553c7b4bc10a"
+            ]
+        ]
+    },
+    {
+        "id": "4448a61388e4d4ef",
+        "type": "change",
+        "z": "fdcff9d7ca80b512",
+        "name": "Set Image URL 3",
+        "rules": [
+            {
+                "t": "set",
+                "p": "image_url",
+                "pt": "msg",
+                "to": "https://img.a.transfermarkt.technology/portrait/medium/4171-1455621203.jpg?lm=1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1170,
+        "y": 780,
+        "wires": [
+            [
+                "9f89553c7b4bc10a"
+            ]
+        ]
+    },
+    {
+        "id": "161204ad6c22b632",
+        "type": "change",
+        "z": "fdcff9d7ca80b512",
+        "name": "Set Image URL 4",
+        "rules": [
+            {
+                "t": "set",
+                "p": "image_url",
+                "pt": "msg",
+                "to": "https://img.a.transfermarkt.technology/portrait/medium/6091-1593002304.jpg?lm=1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1170,
+        "y": 820,
+        "wires": [
+            [
+                "9f89553c7b4bc10a"
+            ]
+        ]
+    },
+    {
+        "id": "c792d5c8708bb91c",
+        "type": "change",
+        "z": "fdcff9d7ca80b512",
+        "name": "Set Image URL 5",
+        "rules": [
+            {
+                "t": "set",
+                "p": "image_url",
+                "pt": "msg",
+                "to": "https://img.a.transfermarkt.technology/portrait/medium/5757-1454935398.jpg?lm=1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1170,
+        "y": 860,
+        "wires": [
+            [
+                "9f89553c7b4bc10a"
+            ]
+        ]
+    },
+    {
+        "id": "061d0e39909ad230",
+        "type": "change",
+        "z": "fdcff9d7ca80b512",
+        "name": "Set Image URL 6",
+        "rules": [
+            {
+                "t": "set",
+                "p": "image_url",
+                "pt": "msg",
+                "to": "https://img.a.transfermarkt.technology/portrait/medium/5817-1454934952.jpg?lm=1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1170,
+        "y": 900,
+        "wires": [
+            [
+                "9f89553c7b4bc10a"
+            ]
+        ]
+    },
+    {
+        "id": "2daad4fc3f3c848e",
+        "type": "change",
+        "z": "fdcff9d7ca80b512",
+        "name": "Set Image URL 7",
+        "rules": [
+            {
+                "t": "set",
+                "p": "image_url",
+                "pt": "msg",
+                "to": "https://img.a.transfermarkt.technology/portrait/medium/5813-1455612470.jpg?lm=1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1170,
+        "y": 940,
+        "wires": [
+            [
+                "9f89553c7b4bc10a"
+            ]
+        ]
+    },
+    {
+        "id": "9cb6bc07f7e21355",
+        "type": "change",
+        "z": "fdcff9d7ca80b512",
+        "name": "Set Image URL 8",
+        "rules": [
+            {
+                "t": "set",
+                "p": "image_url",
+                "pt": "msg",
+                "to": "https://img.a.transfermarkt.technology/portrait/medium/5947-1454935412.jpg?lm=1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1170,
+        "y": 980,
+        "wires": [
+            [
+                "9f89553c7b4bc10a"
+            ]
+        ]
+    },
+    {
+        "id": "632636176432f55d",
+        "type": "change",
+        "z": "fdcff9d7ca80b512",
+        "name": "Set Image URL 9",
+        "rules": [
+            {
+                "t": "set",
+                "p": "image_url",
+                "pt": "msg",
+                "to": "https://img.a.transfermarkt.technology/portrait/medium/5958-1448466835.jpg?lm=1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1170,
+        "y": 1020,
+        "wires": [
+            [
+                "9f89553c7b4bc10a"
+            ]
+        ]
+    },
+    {
+        "id": "b686af4a3e1550df",
+        "type": "change",
+        "z": "fdcff9d7ca80b512",
+        "name": "Set Image URL 10",
+        "rules": [
+            {
+                "t": "set",
+                "p": "image_url",
+                "pt": "msg",
+                "to": "https://img.a.transfermarkt.technology/portrait/medium/4289-1683631011.jpg?lm=1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1170,
+        "y": 1060,
+        "wires": [
+            [
+                "9f89553c7b4bc10a"
+            ]
+        ]
+    },
+    {
+        "id": "026af75585b6fd24",
+        "type": "change",
+        "z": "fdcff9d7ca80b512",
+        "name": "Set Image URL 11",
+        "rules": [
+            {
+                "t": "set",
+                "p": "image_url",
+                "pt": "msg",
+                "to": "https://img.a.transfermarkt.technology/portrait/medium/5878-1448984743.jpg?lm=1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1170,
+        "y": 1100,
+        "wires": [
+            [
+                "9f89553c7b4bc10a"
+            ]
+        ]
+    },
+    {
+        "id": "9f89553c7b4bc10a",
+        "type": "ui_template",
+        "z": "fdcff9d7ca80b512",
+        "group": "fdc8f009a497acc6",
+        "name": "Display Player Image",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "format": "<div style=\"text-align: center;\">\n  <img src=\"{{msg.image_url}}\" alt=\"Player Image\" style=\"width: 300px; height: 300px;\">\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1540,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0366ef407dd0f047",
+        "type": "ui_chart",
+        "z": "fdcff9d7ca80b512",
+        "name": "Heart Rate",
+        "group": "78c5e4e7.41b1c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "step",
+        "nodata": "",
+        "dot": true,
+        "ymin": "120",
+        "ymax": "200",
+        "removeOlder": "20",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#0095ff",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d33131",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 810,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "383eeabdefa59819",
+        "type": "function",
+        "z": "fdcff9d7ca80b512",
+        "name": "Elapsed_Time",
+        "func": "\nvar player_topic = flow.get('player_topic');\nif (msg.topic === player_topic) {\n    var elapsed_time = msg.payload.elapsed_time;\n    msg.payload = `${elapsed_time} : 00`;\n    return msg;\n} else {\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 140,
+        "wires": [
+            [
+                "161120de4f863686",
+                "072a4c35ba7e3a27",
+                "3fd09b5be4515cc0",
+                "a8ef92da1e7a83d3"
+            ]
+        ]
+    },
+    {
+        "id": "161120de4f863686",
+        "type": "ui_text",
+        "z": "fdcff9d7ca80b512",
+        "group": "fdc8f009a497acc6",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Minute",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 810,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "072a4c35ba7e3a27",
+        "type": "ui_text",
+        "z": "fdcff9d7ca80b512",
+        "group": "2e442781.0c5608",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Minute",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 810,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "b16dbda3bf6f6363",
+        "type": "function",
+        "z": "fdcff9d7ca80b512",
+        "name": "Pressure Check",
+        "func": "// Estrazione dei valori di pressione sanguigna arrotondati\nvar systolic = msg.payload.blood_pressure.systolic;\nvar diastolic = msg.payload.blood_pressure.diastolic;\n\n// Logica di valutazione della pressione sanguigna\nvar message;\nif ((systolic >= 172 && systolic <= 228) && (diastolic >= 76 && diastolic <= 94)) {\n    message = \"Pressure OK\";\n} else {\n    message = \"Pressure anomaly! Be careful!\";\n}\n\n// Aggiornamento del messaggio di output\nmsg.payload = message;\n\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 580,
+        "wires": [
+            [
+                "708f1c7119c37a51"
+            ]
+        ]
+    },
+    {
+        "id": "708f1c7119c37a51",
+        "type": "ui_text",
+        "z": "fdcff9d7ca80b512",
+        "group": "a2c542e73bdb6825",
+        "order": 5,
+        "width": 9,
+        "height": 1,
+        "name": "Pressure Report",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1280,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "73d9771aaf511459",
+        "type": "ui_text",
+        "z": "fdcff9d7ca80b512",
+        "group": "78c5e4e7.41b1c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "Heart Beat Value",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 830,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "5de4acd172cc74ab",
+        "type": "ui_button",
+        "z": "fdcff9d7ca80b512",
+        "name": "",
+        "group": "fdc8f009a497acc6",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "START",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1480,
+        "y": 180,
+        "wires": [
+            [
+                "13b0571a478fc857"
+            ]
+        ]
+    },
+    {
+        "id": "13b0571a478fc857",
+        "type": "exec",
+        "z": "fdcff9d7ca80b512",
+        "command": "python C:\\your_path\\WDF!\\Script\\simulators.py",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "EXEC",
+        "x": 1670,
+        "y": 180,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "418e70f8cf700f3e",
+        "type": "function",
+        "z": "fdcff9d7ca80b512",
+        "name": "HB Check",
+        "func": "\nvar hb = msg.payload\n\n\nvar message;\nif (hb >= 125 && hb <= 175) {\n    message = \"Heart Beat OK\";\n} else {\n    message = \"Heart Beat anomaly! Be careful!\";\n}\n\n// Aggiornamento del messaggio di output\nmsg.payload = message;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 380,
+        "wires": [
+            [
+                "192ef986c86cf193"
+            ]
+        ]
+    },
+    {
+        "id": "192ef986c86cf193",
+        "type": "ui_text",
+        "z": "fdcff9d7ca80b512",
+        "group": "a2c542e73bdb6825",
+        "order": 7,
+        "width": 9,
+        "height": 1,
+        "name": "HB Report",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1330,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "3fd09b5be4515cc0",
+        "type": "ui_slider",
+        "z": "fdcff9d7ca80b512",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "group": "fbf8bce68b05fc82",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "{{msg.payload}}",
+        "topicType": "msg",
+        "min": 0,
+        "max": "90",
+        "step": 1,
+        "className": "",
+        "x": 1010,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a8ef92da1e7a83d3",
+        "type": "ui_text",
+        "z": "fdcff9d7ca80b512",
+        "group": "fbf8bce68b05fc82",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Minute",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 910,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "a78a250cf0cfd776",
+        "type": "mqtt in",
+        "z": "6d27acb443d1f901",
+        "name": "MQTT Player 1",
+        "topic": "football/players/1/sensors",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7d6e40e65a2d852a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 320,
+        "y": 80,
+        "wires": [
+            [
+                "1f5b55e6300c50ee"
+            ]
+        ]
+    },
+    {
+        "id": "55797df79a1bfe51",
+        "type": "mqtt in",
+        "z": "6d27acb443d1f901",
+        "name": "MQTT Player 11",
+        "topic": "football/players/11/sensors",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7d6e40e65a2d852a",
+        "inputs": 0,
+        "x": 340,
+        "y": 680,
+        "wires": [
+            [
+                "610dc97c6a132ca1"
+            ]
+        ]
+    },
+    {
+        "id": "610dc97c6a132ca1",
+        "type": "json",
+        "z": "6d27acb443d1f901",
+        "name": "Parse JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 530,
+        "y": 680,
+        "wires": [
+            [
+                "c7f6429f5cbb9434"
+            ]
+        ]
+    },
+    {
+        "id": "24eb21bfd7da9c42",
+        "type": "ui_heat_map",
+        "z": "6d27acb443d1f901",
+        "group": "44d2c12dfa2a292f",
+        "order": 1,
+        "width": 9,
+        "height": 6,
+        "name": "",
+        "rows": "65",
+        "columns": "105",
+        "minMax": false,
+        "minimumValue": 0,
+        "maximumValue": 0,
+        "backgroundType": "color",
+        "backgroundColor": "#458a00",
+        "image": "never",
+        "radius": "40",
+        "opacity": "0",
+        "blur": "0.85",
+        "showValues": false,
+        "gridType": "vals",
+        "valuesDecimals": 0,
+        "showLegend": false,
+        "legendType": "none",
+        "legendDecimals": 0,
+        "legendCount": 2,
+        "x": 1240,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c7f6429f5cbb9434",
+        "type": "function",
+        "z": "6d27acb443d1f901",
+        "name": "function 1",
+        "func": "var y = msg.payload.gps.unic;\nvar heatmap_array = [];\nfor (var i = 0; i < 105 * 65; i++) {\n    if (i != y) {\n        heatmap_array.push(0)\n    }\n    else {\n        heatmap_array.push(70);\n    }\n}\n\nmsg.payload = heatmap_array;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 700,
+        "wires": [
+            [
+                "24eb21bfd7da9c42"
+            ]
+        ]
+    },
+    {
+        "id": "1f5b55e6300c50ee",
+        "type": "json",
+        "z": "6d27acb443d1f901",
+        "name": "Parse JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 530,
+        "y": 80,
+        "wires": [
+            [
+                "58ea32448e92450a"
+            ]
+        ]
+    },
+    {
+        "id": "c2f644b437f0ac88",
+        "type": "ui_heat_map",
+        "z": "6d27acb443d1f901",
+        "group": "fab2579431caefb1",
+        "order": 1,
+        "width": 9,
+        "height": 6,
+        "name": "",
+        "rows": "65",
+        "columns": "105",
+        "minMax": false,
+        "minimumValue": 0,
+        "maximumValue": 0,
+        "backgroundType": "color",
+        "backgroundColor": "#458a00",
+        "image": "never",
+        "radius": "40",
+        "opacity": "0",
+        "blur": "0.85",
+        "showValues": false,
+        "gridType": "vals",
+        "valuesDecimals": 0,
+        "showLegend": false,
+        "legendType": "none",
+        "legendDecimals": 0,
+        "legendCount": 2,
+        "x": 1160,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "58ea32448e92450a",
+        "type": "function",
+        "z": "6d27acb443d1f901",
+        "name": "function 3",
+        "func": "\n   var y = msg.payload.gps.unic;\n   var heatmap_array = [];\nfor(var i = 0; i < 105 * 65; i++){\n    if (i != y){\n        heatmap_array.push(0)\n    }\n    else{\n    heatmap_array.push(50);\n    }\n}\n\n    msg.payload = heatmap_array;\n    return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 100,
+        "wires": [
+            [
+                "c2f644b437f0ac88"
+            ]
+        ]
+    },
+    {
+        "id": "b19f674c2f697288",
+        "type": "mqtt in",
+        "z": "6d27acb443d1f901",
+        "name": "MQTT Player 2",
+        "topic": "football/players/2/sensors",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7d6e40e65a2d852a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 320,
+        "y": 140,
+        "wires": [
+            [
+                "709d45be164b8355"
+            ]
+        ]
+    },
+    {
+        "id": "709d45be164b8355",
+        "type": "json",
+        "z": "6d27acb443d1f901",
+        "name": "Parse JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 530,
+        "y": 140,
+        "wires": [
+            [
+                "c70b9294810ea3f8"
+            ]
+        ]
+    },
+    {
+        "id": "f38b765149eae0fc",
+        "type": "ui_heat_map",
+        "z": "6d27acb443d1f901",
+        "group": "a395b0e559c6cee0",
+        "order": 1,
+        "width": 9,
+        "height": 6,
+        "name": "",
+        "rows": "65",
+        "columns": "105",
+        "minMax": false,
+        "minimumValue": 0,
+        "maximumValue": 0,
+        "backgroundType": "color",
+        "backgroundColor": "#458a00",
+        "image": "never",
+        "radius": "40",
+        "opacity": "0",
+        "blur": "0.85",
+        "showValues": false,
+        "gridType": "vals",
+        "valuesDecimals": 0,
+        "showLegend": false,
+        "legendType": "none",
+        "legendDecimals": 0,
+        "legendCount": 2,
+        "x": 1160,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c70b9294810ea3f8",
+        "type": "function",
+        "z": "6d27acb443d1f901",
+        "name": "function 5",
+        "func": "   var y = msg.payload.gps.unic;\n   var heatmap_array = [];\nfor(var i = 0; i < 105 * 65; i++){\n    if (i != y){\n        heatmap_array.push(0)\n    }\n    else{\n    heatmap_array.push(50);\n    }\n}\n\n    msg.payload = heatmap_array;\n    return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 160,
+        "wires": [
+            [
+                "f38b765149eae0fc"
+            ]
+        ]
+    },
+    {
+        "id": "2f8473a7455d942b",
+        "type": "mqtt in",
+        "z": "6d27acb443d1f901",
+        "name": "MQTT Player 3",
+        "topic": "football/players/3/sensors",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7d6e40e65a2d852a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 320,
+        "y": 200,
+        "wires": [
+            [
+                "901ea4a58da4be90"
+            ]
+        ]
+    },
+    {
+        "id": "901ea4a58da4be90",
+        "type": "json",
+        "z": "6d27acb443d1f901",
+        "name": "Parse JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 530,
+        "y": 200,
+        "wires": [
+            [
+                "397c75c863b2d097"
+            ]
+        ]
+    },
+    {
+        "id": "c78d51ea50b98c31",
+        "type": "ui_heat_map",
+        "z": "6d27acb443d1f901",
+        "group": "35c9b88a3b2af793",
+        "order": 1,
+        "width": 9,
+        "height": 6,
+        "name": "",
+        "rows": "65",
+        "columns": "105",
+        "minMax": false,
+        "minimumValue": 0,
+        "maximumValue": 0,
+        "backgroundType": "color",
+        "backgroundColor": "#458a00",
+        "image": "never",
+        "radius": "40",
+        "opacity": "0",
+        "blur": "0.85",
+        "showValues": false,
+        "gridType": "vals",
+        "valuesDecimals": 0,
+        "showLegend": false,
+        "legendType": "none",
+        "legendDecimals": 0,
+        "legendCount": 2,
+        "x": 1240,
+        "y": 250,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "397c75c863b2d097",
+        "type": "function",
+        "z": "6d27acb443d1f901",
+        "name": "function 7",
+        "func": "   var y = msg.payload.gps.unic;\n   var heatmap_array = [];\nfor(var i = 0; i < 105 * 65; i++){\n    if (i != y){\n        heatmap_array.push(0)\n    }\n    else{\n    heatmap_array.push(50);\n    }\n}\n\n    msg.payload = heatmap_array;\n    return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 220,
+        "wires": [
+            [
+                "c78d51ea50b98c31"
+            ]
+        ]
+    },
+    {
+        "id": "cd79db6f4c890ff8",
+        "type": "mqtt in",
+        "z": "6d27acb443d1f901",
+        "name": "MQTT Player 4",
+        "topic": "football/players/4/sensors",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7d6e40e65a2d852a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 320,
+        "y": 260,
+        "wires": [
+            [
+                "0d5880bac7939b1c"
+            ]
+        ]
+    },
+    {
+        "id": "0d5880bac7939b1c",
+        "type": "json",
+        "z": "6d27acb443d1f901",
+        "name": "Parse JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 530,
+        "y": 260,
+        "wires": [
+            [
+                "62a1ff81feb7cc03"
+            ]
+        ]
+    },
+    {
+        "id": "118c74ee31386070",
+        "type": "ui_heat_map",
+        "z": "6d27acb443d1f901",
+        "group": "a95a1b0e96c96988",
+        "order": 1,
+        "width": 9,
+        "height": 6,
+        "name": "",
+        "rows": "65",
+        "columns": "105",
+        "minMax": false,
+        "minimumValue": 0,
+        "maximumValue": 0,
+        "backgroundType": "color",
+        "backgroundColor": "#458a00",
+        "image": "never",
+        "radius": "40",
+        "opacity": "0",
+        "blur": "0.85",
+        "showValues": false,
+        "gridType": "vals",
+        "valuesDecimals": 0,
+        "showLegend": false,
+        "legendType": "none",
+        "legendDecimals": 0,
+        "legendCount": 2,
+        "x": 1240,
+        "y": 310,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "62a1ff81feb7cc03",
+        "type": "function",
+        "z": "6d27acb443d1f901",
+        "name": "function 9",
+        "func": "   var y = msg.payload.gps.unic;\n   var heatmap_array = [];\nfor(var i = 0; i < 105 * 65; i++){\n    if (i != y){\n        heatmap_array.push(0)\n    }\n    else{\n    heatmap_array.push(50);\n    }\n}\n\n    msg.payload = heatmap_array;\n    return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 280,
+        "wires": [
+            [
+                "118c74ee31386070"
+            ]
+        ]
+    },
+    {
+        "id": "68e8e3db6159c960",
+        "type": "mqtt in",
+        "z": "6d27acb443d1f901",
+        "name": "MQTT Player 5",
+        "topic": "football/players/5/sensors",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7d6e40e65a2d852a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 320,
+        "y": 320,
+        "wires": [
+            [
+                "1f7756a0d8e61c9e"
+            ]
+        ]
+    },
+    {
+        "id": "1f7756a0d8e61c9e",
+        "type": "json",
+        "z": "6d27acb443d1f901",
+        "name": "Parse JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 530,
+        "y": 320,
+        "wires": [
+            [
+                "98dd28fc6700e9d9"
+            ]
+        ]
+    },
+    {
+        "id": "3415da13902f975a",
+        "type": "ui_heat_map",
+        "z": "6d27acb443d1f901",
+        "group": "d646855fd6626ca5",
+        "order": 1,
+        "width": 9,
+        "height": 6,
+        "name": "",
+        "rows": "65",
+        "columns": "105",
+        "minMax": false,
+        "minimumValue": 0,
+        "maximumValue": 0,
+        "backgroundType": "color",
+        "backgroundColor": "#458a00",
+        "image": "never",
+        "radius": "40",
+        "opacity": "0",
+        "blur": "0.85",
+        "showValues": false,
+        "gridType": "vals",
+        "valuesDecimals": 0,
+        "showLegend": false,
+        "legendType": "none",
+        "legendDecimals": 0,
+        "legendCount": 2,
+        "x": 1240,
+        "y": 370,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "98dd28fc6700e9d9",
+        "type": "function",
+        "z": "6d27acb443d1f901",
+        "name": "function 11",
+        "func": "\n   var y = msg.payload.gps.unic;\n   var heatmap_array = [];\nfor(var i = 0; i < 105 * 65; i++){\n    if (i != y){\n        heatmap_array.push(0)\n    }\n    else{\n    heatmap_array.push(50);\n    }\n}\n\n    msg.payload = heatmap_array;\n    return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 340,
+        "wires": [
+            [
+                "3415da13902f975a"
+            ]
+        ]
+    },
+    {
+        "id": "986c944143c7f904",
+        "type": "mqtt in",
+        "z": "6d27acb443d1f901",
+        "name": "MQTT Player 6",
+        "topic": "football/players/6/sensors",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7d6e40e65a2d852a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 320,
+        "y": 380,
+        "wires": [
+            [
+                "78944d964d668f0e"
+            ]
+        ]
+    },
+    {
+        "id": "78944d964d668f0e",
+        "type": "json",
+        "z": "6d27acb443d1f901",
+        "name": "Parse JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 530,
+        "y": 380,
+        "wires": [
+            [
+                "0c62b78bfab22b58"
+            ]
+        ]
+    },
+    {
+        "id": "d7680957f193ea1f",
+        "type": "ui_heat_map",
+        "z": "6d27acb443d1f901",
+        "group": "62b518d2f51981cb",
+        "order": 1,
+        "width": 9,
+        "height": 6,
+        "name": "",
+        "rows": "65",
+        "columns": "105",
+        "minMax": false,
+        "minimumValue": 0,
+        "maximumValue": 0,
+        "backgroundType": "color",
+        "backgroundColor": "#458a00",
+        "image": "never",
+        "radius": "40",
+        "opacity": "0",
+        "blur": "0.85",
+        "showValues": false,
+        "gridType": "vals",
+        "valuesDecimals": 0,
+        "showLegend": false,
+        "legendType": "none",
+        "legendDecimals": 0,
+        "legendCount": 2,
+        "x": 1240,
+        "y": 430,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0c62b78bfab22b58",
+        "type": "function",
+        "z": "6d27acb443d1f901",
+        "name": "function 13",
+        "func": "var y = msg.payload.gps.unic;\nvar heatmap_array = [];\nfor (var i = 0; i < 105 * 65; i++) {\n    if (i != y) {\n        heatmap_array.push(0)\n    }\n    else {\n        heatmap_array.push(50);\n    }\n}\n\nmsg.payload = heatmap_array;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 400,
+        "wires": [
+            [
+                "d7680957f193ea1f"
+            ]
+        ]
+    },
+    {
+        "id": "014abbc75ee8c2ee",
+        "type": "mqtt in",
+        "z": "6d27acb443d1f901",
+        "name": "MQTT Player 7",
+        "topic": "football/players/7/sensors",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7d6e40e65a2d852a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 320,
+        "y": 440,
+        "wires": [
+            [
+                "a226d99e7da3f749"
+            ]
+        ]
+    },
+    {
+        "id": "a226d99e7da3f749",
+        "type": "json",
+        "z": "6d27acb443d1f901",
+        "name": "Parse JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 530,
+        "y": 440,
+        "wires": [
+            [
+                "57392d5f4d2b5658"
+            ]
+        ]
+    },
+    {
+        "id": "a5bba1d05d5687d2",
+        "type": "ui_heat_map",
+        "z": "6d27acb443d1f901",
+        "group": "cd41d15b1899c08a",
+        "order": 1,
+        "width": 9,
+        "height": 6,
+        "name": "",
+        "rows": "65",
+        "columns": "105",
+        "minMax": false,
+        "minimumValue": 0,
+        "maximumValue": 0,
+        "backgroundType": "color",
+        "backgroundColor": "#458a00",
+        "image": "never",
+        "radius": "40",
+        "opacity": "0",
+        "blur": "0.85",
+        "showValues": false,
+        "gridType": "vals",
+        "valuesDecimals": 0,
+        "showLegend": false,
+        "legendType": "none",
+        "legendDecimals": 0,
+        "legendCount": 2,
+        "x": 1240,
+        "y": 490,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "57392d5f4d2b5658",
+        "type": "function",
+        "z": "6d27acb443d1f901",
+        "name": "function 15",
+        "func": "   var y = msg.payload.gps.unic;\n   var heatmap_array = [];\nfor(var i = 0; i < 105 * 65; i++){\n    if (i != y){\n        heatmap_array.push(0)\n    }\n    else{\n    heatmap_array.push(50);\n    }\n}\n\n    msg.payload = heatmap_array;\n    return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 460,
+        "wires": [
+            [
+                "a5bba1d05d5687d2"
+            ]
+        ]
+    },
+    {
+        "id": "00e6787b6e0cbae1",
+        "type": "mqtt in",
+        "z": "6d27acb443d1f901",
+        "name": "MQTT Player 8",
+        "topic": "football/players/8/sensors",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7d6e40e65a2d852a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 320,
+        "y": 500,
+        "wires": [
+            [
+                "16abd255d90b29fd"
+            ]
+        ]
+    },
+    {
+        "id": "16abd255d90b29fd",
+        "type": "json",
+        "z": "6d27acb443d1f901",
+        "name": "Parse JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 530,
+        "y": 500,
+        "wires": [
+            [
+                "570a689e41c1db35"
+            ]
+        ]
+    },
+    {
+        "id": "7bdb0d9d3c1d8b99",
+        "type": "ui_heat_map",
+        "z": "6d27acb443d1f901",
+        "group": "0b8b380746d13cab",
+        "order": 1,
+        "width": 9,
+        "height": 6,
+        "name": "",
+        "rows": "65",
+        "columns": "105",
+        "minMax": false,
+        "minimumValue": 0,
+        "maximumValue": 0,
+        "backgroundType": "color",
+        "backgroundColor": "#458a00",
+        "image": "never",
+        "radius": "40",
+        "opacity": "0",
+        "blur": "0.85",
+        "showValues": false,
+        "gridType": "vals",
+        "valuesDecimals": 0,
+        "showLegend": false,
+        "legendType": "none",
+        "legendDecimals": 0,
+        "legendCount": 2,
+        "x": 1240,
+        "y": 550,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "570a689e41c1db35",
+        "type": "function",
+        "z": "6d27acb443d1f901",
+        "name": "function 17",
+        "func": "   var y = msg.payload.gps.unic;\n   var heatmap_array = [];\nfor(var i = 0; i < 105 * 65; i++){\n    if (i != y){\n        heatmap_array.push(0)\n    }\n    else{\n    heatmap_array.push(50);\n    }\n}\n\n    msg.payload = heatmap_array;\n    return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 520,
+        "wires": [
+            [
+                "7bdb0d9d3c1d8b99"
+            ]
+        ]
+    },
+    {
+        "id": "d9a85016358767ef",
+        "type": "mqtt in",
+        "z": "6d27acb443d1f901",
+        "name": "MQTT Player 9",
+        "topic": "football/players/9/sensors",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7d6e40e65a2d852a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 320,
+        "y": 560,
+        "wires": [
+            [
+                "7c1b07a48f85d86f"
+            ]
+        ]
+    },
+    {
+        "id": "7c1b07a48f85d86f",
+        "type": "json",
+        "z": "6d27acb443d1f901",
+        "name": "Parse JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 530,
+        "y": 560,
+        "wires": [
+            [
+                "3331575b2599c87f"
+            ]
+        ]
+    },
+    {
+        "id": "e274775d16dfea40",
+        "type": "ui_heat_map",
+        "z": "6d27acb443d1f901",
+        "group": "3511ce9fae8060e9",
+        "order": 1,
+        "width": 9,
+        "height": 6,
+        "name": "",
+        "rows": "65",
+        "columns": "105",
+        "minMax": false,
+        "minimumValue": 0,
+        "maximumValue": 0,
+        "backgroundType": "color",
+        "backgroundColor": "#458a00",
+        "image": "never",
+        "radius": "40",
+        "opacity": "0",
+        "blur": "0.85",
+        "showValues": false,
+        "gridType": "vals",
+        "valuesDecimals": 0,
+        "showLegend": false,
+        "legendType": "none",
+        "legendDecimals": 0,
+        "legendCount": 2,
+        "x": 1240,
+        "y": 610,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3331575b2599c87f",
+        "type": "function",
+        "z": "6d27acb443d1f901",
+        "name": "function 19",
+        "func": "   var y = msg.payload.gps.unic;\n   var heatmap_array = [];\nfor(var i = 0; i < 105 * 65; i++){\n    if (i != y){\n        heatmap_array.push(0)\n    }\n    else{\n    heatmap_array.push(50);\n    }\n}\n\n    msg.payload = heatmap_array;\n    return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 580,
+        "wires": [
+            [
+                "e274775d16dfea40"
+            ]
+        ]
+    },
+    {
+        "id": "be7cafcfd22f05f0",
+        "type": "mqtt in",
+        "z": "6d27acb443d1f901",
+        "name": "MQTT Player 10",
+        "topic": "football/players/10/sensors",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7d6e40e65a2d852a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 320,
+        "y": 620,
+        "wires": [
+            [
+                "6b1d683a0828a642"
+            ]
+        ]
+    },
+    {
+        "id": "6b1d683a0828a642",
+        "type": "json",
+        "z": "6d27acb443d1f901",
+        "name": "Parse JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 530,
+        "y": 620,
+        "wires": [
+            [
+                "72a63a1f87fdbba8"
+            ]
+        ]
+    },
+    {
+        "id": "d70651a9dc18f308",
+        "type": "ui_heat_map",
+        "z": "6d27acb443d1f901",
+        "group": "bcb7dd68eb7f0288",
+        "order": 1,
+        "width": 9,
+        "height": 6,
+        "name": "",
+        "rows": "65",
+        "columns": "105",
+        "minMax": false,
+        "minimumValue": 0,
+        "maximumValue": 0,
+        "backgroundType": "color",
+        "backgroundColor": "#458a00",
+        "image": "never",
+        "radius": "40",
+        "opacity": "0",
+        "blur": "0.85",
+        "showValues": false,
+        "gridType": "vals",
+        "valuesDecimals": 0,
+        "showLegend": false,
+        "legendType": "none",
+        "legendDecimals": 0,
+        "legendCount": 2,
+        "x": 1240,
+        "y": 670,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "72a63a1f87fdbba8",
+        "type": "function",
+        "z": "6d27acb443d1f901",
+        "name": "function 21",
+        "func": "   var y = msg.payload.gps.unic;\n   var heatmap_array = [];\nfor(var i = 0; i < 105 * 65; i++){\n    if (i != y){\n        heatmap_array.push(0)\n    }\n    else{\n    heatmap_array.push(50);\n    }\n}\n\n    msg.payload = heatmap_array;\n    return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 640,
+        "wires": [
+            [
+                "d70651a9dc18f308"
+            ]
+        ]
+    }
+]

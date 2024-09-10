@@ -1,0 +1,41 @@
+# Installation Guide
+
+This document provides detailed instructions for installing all necessary components for your project on both Windows and Linux. The components include Mosquitto (MQTT broker), MongoDB (database), Python with required libraries (paho-mqtt and pymongo), Node.js with npm, and Node-RED with additional libraries (node-red-dashboard, node-red-contrib-ui-heatmap, and node-red-contrib-image-output).
+
+## Prerequisites
+
+- Ensure you have administrative privileges on your system.
+- Stable internet connection for downloading packages.
+
+## Windows Installation
+
+### 1. Install Mosquitto (MQTT Broker)
+
+1. Download Mosquitto from the official website: [Mosquitto Download](https://mosquitto.org/download/).
+2. Run the installer and follow the on-screen instructions.
+3. Open the command prompt as an administrator and start the Mosquitto service: net start MongoDB
+
+### 2. Install MongoDB
+
+1. Download MongoDB from the official website: [MongoDB Download](https://www.mongodb.com/try/download/community).
+2. Run the installer and follow the on-screen instructions.
+3. After installation, open the command prompt as an administrator and start the MongoDB service: net start MongoDB
+
+### 3. Install Python and Required Libraries
+
+1. Download and install Python from the official website: [Python Download](https://www.python.org/downloads/).
+2. During installation, make sure to check the box "Add Python to PATH".
+3. Open the command prompt and install the required libraries: pip install paho-mqtt pymongo
+
+### 4. Install Node.js and npm
+
+1. Download Node.js from the official website: [Node.js Download](https://nodejs.org/).
+2. Run the installer and follow the on-screen instructions.
+
+### 5. Install Node-RED and Additional Libraries
+
+1. Open the command prompt and install Node-RED globally: npm install -g node-red
+2. Install the required Node-RED libraries: npm install node-red-dashboard node-red-contrib-ui-heatmap node-red-contrib-image-output
+3. Start Node-RED: node-red
+
+

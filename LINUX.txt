@@ -1,0 +1,49 @@
+# Installation Guide
+
+This document provides detailed instructions for installing all necessary components for your project on both Windows and Linux. The components include Mosquitto (MQTT broker), MongoDB (database), Python with required libraries (paho-mqtt and pymongo), Node.js with npm, and Node-RED with additional libraries (node-red-dashboard, node-red-contrib-ui-heatmap, and node-red-contrib-image-output).
+
+## Prerequisites
+
+- Ensure you have administrative privileges on your system.
+- Stable internet connection for downloading packages.
+
+## Linux Installation
+
+### 1. Install Mosquitto (MQTT Broker)
+
+1. Open the terminal and update the package list: sudo apt update
+2. Install Mosquitto: sudo apt install mosquitto mosquitto-clients
+3. Start the Mosquitto service: sudo systemctl start mosquitto
+sudo systemctl enable mosquitto
+
+### 2. Install MongoDB
+
+1. Import the public key used by the package management system: wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+2. Create a list file for MongoDB: echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+3. Reload the local package database: sudo apt update
+4. Install the MongoDB packages: sudo apt install -y mongodb-org
+5. Start the MongoDB service: sudo systemctl start mongod
+sudo systemctl enable mongod
+
+### 3. Install Python and Required Libraries
+
+1. Install Python and pip: pip3 install paho-mqtt pymongo
+
+### 4. Install Node.js and npm
+
+1. Install Node.js and npm from the NodeSource repository: curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt install -y nodejs
+
+### 5. Install Node-RED and Additional Libraries
+
+1. Install Node-RED globally: sudo npm install -g --unsafe-perm node-red
+2. Install the required Node-RED libraries:cd ~/.node-red
+npm install node-red-dashboard node-red-contrib-ui-heatmap node-red-contrib-image-output
+3. Start Node-RED: node-red 
+
+
+
+
+
+
+

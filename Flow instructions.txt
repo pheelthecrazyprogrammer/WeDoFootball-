@@ -1,0 +1,5 @@
+1 - Open the flows.json
+2 - Search for "your_path" (2 occurrences!)
+3 - Paste your actual path to the python file
+4 - Copy the flows.json
+5 - Import to node-red
