@@ -8,9 +8,9 @@ WeDoFootball! is a simulation system designed to track soccer players' movements
 # Key Components
 Simulators: Generate simulated sensor data for players over a 90-second period (equivalent to a 90-minute match). Data includes metrics like heart rate, GPS position, and calories consumed.
 
-## MQTT Broker: Handles real-time communication between simulators and the dashboard using pre-defined topics.
-## Node-RED Dashboard: A visual interface to display real-time data from the MQTT broker, including charts, heatmaps, and player statistics.
-## MongoDB Integration: Stores simulation data and enables advanced analytics for performance metrics like average speed and distance traveled.
+ - MQTT Broker: Handles real-time communication between simulators and the dashboard using pre-defined topics.
+ - Node-RED Dashboard: A visual interface to display real-time data from the MQTT broker, including charts, heatmaps, and player statistics.
+ - MongoDB Integration: Stores simulation data and enables advanced analytics for performance metrics like average speed and distance traveled.
 
 # Setup Instructions
 Install Dependencies:
