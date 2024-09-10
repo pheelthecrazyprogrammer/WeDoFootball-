@@ -42,3 +42,17 @@ Dashboard Visualization: Displays real-time match statistics, including a heatma
 # Future Enhancements
 Add advanced analytics using machine learning for predicting player performance.
 Integrate with wearable devices for more accurate data collection.
+
+## License
+
+This project is licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License**.
+
+You are free to:
+- Share — copy and redistribute the material in any medium or format.
+
+Under the following terms:
+- **Attribution** — You must give appropriate credit to the original authors of this project.
+- **NonCommercial** — You may not use the material for commercial purposes.
+- **NoDerivatives** — If you remix, transform, or build upon the material, you may not distribute the modified material.
+
+For more details, see the [LICENSE](LICENSE) file.
