@@ -28,3 +28,14 @@ if (msg.topic === player_topic) {
     // Return null if the message topic does not match
     return null;
 }
+
+
+if (msg.topic === flow.get('player_topic')) { // Check if the message topic matches the retrieved topic
+    msg.payload = msg.payload.heart_rate.heart_rate; // Extract heart rate value from the payload
+    return msg; // Return the modified message
+} else {
+    return null; // Return null if the message topic does not match
+}
+
+/*
+*/
